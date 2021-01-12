@@ -61,7 +61,7 @@ public class FormRumahMakanActivity extends AppCompatActivity {
             tr.setJenis(spJenisTransaksi.getSelectedItem().toString());
             tr.setTanggal(tanggalTransaksi);
             SharedPreferenceUtility.addTransaksi(this,tr);
-            Toast.makeText(this,"Data berhaasil disimpan",Toast.LENGTH_SHORT).show();
+            Toast.makeText(this,"Data berhaaasil disimpan",Toast.LENGTH_SHORT).show();
 
             // Kembali ke layar sebelumnya setelah 500 ms (0.5 detik)
             new Handler().postDelayed(new Runnable() {
